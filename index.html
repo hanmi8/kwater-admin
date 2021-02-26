@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KWATER - ADMIN</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/icheck.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/icheck.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="menu-wrap">
+        <h1 class="branding">
+            <span>국가상수도 상활실</span>
+        </h1>
+        <ul class="menu">
+            <li><a href="#"><i class="fa fa-cog"></i> 시스템관리</a></li>
+            <li><a href="#"><i class="fa fa-info-circle"></i> 정보관리 <i class="fa fa-caret-down arrow"></i></a>
+                <ul class="menu-second">
+                    <li><a href="#">하위메뉴</a></li>
+                    <li><a href="#">하위메뉴</a></li>
+                </ul>
+            </li>
+            <li class="on"><a href="#"><i class="fa fa-user"></i> 사용자관리</a></li>
+            <li><a href="#"><i class="fa fa-magic"></i> 권한관리</a></li>
+            <li><a href="#"><i class="fa fa-bars"></i> 메뉴관리</a></li>
+            <li><a href="#"><i class="fa fa-book"></i> 수집자료관리</a></li>
+            <li><a href="#"><i class="fa fa-link"></i> 연계관리 <i class="fa fa-caret-down arrow"></i></a>
+                <ul class="menu-second">
+                    <li><a href="#">지점관리</a></li>
+                    <li><a href="#">태그관리</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-database"></i> 보유데이터관리</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="top">
+            <div class="folding-wrap">
+                <a href="#" class="folding"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="user-info">
+                <strong class="user-name"><span>홍길동</span> 님</strong>
+                <a href="#"><i class="fa fa-sign-out-alt"></i> 로그아웃</a>
+            </div>
+        </div>
+        <div class="contents">
+            <h2>수도현황</h2>
+            <h3>수도현황 목록</h3>
+            <div class="grid">
+                <div class="grid-top-button">
+                    <button class="btn btn-primary">조회</button>
+                    <button class="btn btn-primary">추가</button>
+                    <button class="btn btn-primary">삭제</button>
+                    <button class="btn btn-primary">저장</button>
+                    <button class="btn btn-primary btn-outline">Excel다운로드</button>
+                    <button class="btn btn-primary btn-outline">Excel업로드</button>
+                </div>
+                <table class="table table-vertical">
+                    <colgroup>
+                        <col width="60px">
+                        <col width="10%">
+                        <col width="*">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Radio</th>
+                        <th>아이템명</th>
+                        <th>단위</th>
+                        <th>수량</th>
+                        <th>단가</th>
+                        <th>부가세</th>
+                        <th>금액</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>10</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="checkbox" class="iCheck"></td>
+                        <td class="text-left">AAAAA 아이템명</td>
+                        <td class="text-right">개</td>
+                        <td class="text-right">5</td>
+                        <td class="text-right">5,000,000</td>
+                        <td class="text-right"></td>
+                        <td class="text-right">25,000,000</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paginate">
+                    <a href="#" class="blind"><i class="fa fa-angle-left"></i></a>
+                    <a href="#" class="blind"><i class="fa fa-angle-double-left"></i></a>
+                    <a href="#" class="on">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                    <a href="#"><i class="fa fa-angle-double-right"></i></a>
+                    <a href="#"><i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(){
+        $('.skin-polaris input').iCheck({
+            checkboxClass: 'icheckbox_square-blue',
+            radioClass: 'iradio_square-blue',
+            increaseArea: '-10%'
+        });
+    });
+</script>
+
+</body>
+</html>
