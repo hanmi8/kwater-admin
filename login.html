@@ -7,34 +7,48 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/icheck.css">
-    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/icheck.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
-<div class="wrapper">
-    <div class="loginWRap">
-        <div class="login">
-            <div class="login-branding"></div>
-        </div>
+<div class="wrapper login">
+    <div class="ci_bg"><img src="images/ci.svg"></div>
+    <div class="ci_bg second"><img src="images/ci.svg"></div>
+    <div class="loginWrap">
         <div class="visual">
-
+            <div>
+                <h1 class="login-branding"><img src="images/ci.svg"></h1>
+                <div class="slogan"><img src="images/slogan3.svg"></div>
+            </div>
+        </div>
+        <div class="login">
+            <h2>Sign in to Account</h2>
+            <div class="inputWrap">
+                <input type="text" class="form-control" placeholder="아이디">
+                <input type="password" class="form-control" placeholder="비밀번호">
+                <div class="checkWrap">
+                    <label class="label-icheck"><input type="radio" name="group1" class="i-checks"> 상황판</label>
+                    <label class="label-icheck"><input type="radio" name="group1" class="i-checks"> 시스템관리</label>
+                </div>
+            </div>
+            <button class="btn-login" onclick="location.href='index.html'">로그인</button>
         </div>
     </div>
 </div>
 
-
 <script>
-    $(document).ready(function(){
-        $('.skin-polaris input').iCheck({
+    $(document).ready(function () {
+        $('.i-checks').iCheck({
             checkboxClass: 'icheckbox_square-blue',
             radioClass: 'iradio_square-blue',
-            increaseArea: '-10%'
         });
     });
 </script>
+
 
 </body>
 </html>

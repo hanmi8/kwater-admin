@@ -1,0 +1,23 @@
+.wrapper.login {position:absolute;left:0;right:0;top:0;bottom:0;background: linear-gradient(to bottom, #f4f4f4 50%, #15222d 50%);}
+
+.ci_bg {position:absolute;left:50%;top:50%;transform:translate(-50%, -120%);}
+.ci_bg.second {position:absolute;left:50%;top:50%;transform:translate(-50%, 0%);opacity:.03;}
+.ci_bg img,.ci_bg.second img {width:800px;}
+
+.loginWrap {position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);display:flex;width:1000px;box-shadow:0 0 10px rgba(0,0,0,0.5);}
+.loginWrap .visual {display:flex;align-items:center;justify-content:center;width:60%;background:url('../images/login-bg.png') no-repeat center /cover #005596;}
+.loginWrap .visual>div {text-align:center;}
+.loginWrap .visual .login-branding {display:block;text-align:center;margin-bottom:30px;}
+.loginWrap .visual .slogan {display:block;}
+.loginWrap .visual .slogan img {width:70%;}
+.loginWrap .login  {width:40%;background:#fff;padding:100px 50px;text-align:center;}
+/*.loginWrap .login .login-branding img {width:80px;}*/
+.loginWrap .login h2 {font-size:18px;margin-bottom:30px;}
+.loginWrap .login .inputWrap>input {display:block;width:100%;margin:10px 0;font-size:20px;}
+.loginWrap .login .inputWrap>input:first-child {margin-bottom:20px;}
+.loginWrap .login .inputWrap>input::placeholder {font-size:16px;color:#ccc;}
+.loginWrap .login .inputWrap .checkWrap {text-align:left;padding:5px 0;margin-bottom:30px;}
+.loginWrap .login .inputWrap .checkWrap label {margin-right:20px;cursor:pointer;}
+.loginWrap .login .inputWrap .checkWrap label:hover {color:#005596;}
+.loginWrap .login .btn-login {width:100%;background:#005596;color:#fff;text-align:center;padding:10px 0;border:none;border-radius:3px;cursor:pointer;}
+
