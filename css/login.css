@@ -21,3 +21,23 @@
 .loginWrap .login .inputWrap .checkWrap label:hover {color:#005596;}
 .loginWrap .login .btn-login {width:100%;background:#005596;color:#fff;text-align:center;padding:10px 0;border:none;border-radius:3px;cursor:pointer;}
 
+@media (max-width:1024px){
+    .loginWrap {width:800px;}
+    .loginWrap .visual {width:50%;}
+    .loginWrap .login {width:50%;}
+}
+@media (max-width:820px){
+    .ci_bg {width:200px;height:60px;background:url('../images/ci_color.svg') no-repeat center top /contain;transform:translate(-50%, -480%);}
+    .ci_bg img {display:none;}
+    .ci_bg.second {display:none;}
+    .loginWrap {width:400px;}
+    .loginWrap .visual {display:none;}
+    .loginWrap .login {width:100%;padding:70px 30px;}
+}
+@media (max-width:420px){
+    .loginWrap {width:calc(100% - 40px);}
+}
+@media (max-width:360px){
+    .ci_bg {transform:translate(-50%, -450%);}
+    .loginWrap .login {padding:50px 30px;}
+}
