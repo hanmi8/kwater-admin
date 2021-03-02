@@ -1,5 +1,5 @@
 $(function(){
-    $('.menu-wrap').css('height', $(window).height());
+    $('.menu-wrap').css('min-height', $(window).height());
 
     $('.folding').click(function(){
         $('.menu-wrap').toggleClass('menu-off');

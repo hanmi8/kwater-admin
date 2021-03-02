@@ -145,7 +145,7 @@ tbody.tree td .depth-second {display:inline-block;margin-left:40px;}
 .modal .modal-footer {padding:20px;text-align:center;}
 
 /* layout */
-.menu-wrap {position:absolute;left:0;top:0;width:220px;background:#2F4050;transition: all 0.4s;z-index: 2001;}
+.menu-wrap {position:fixed;left:0;top:0;bottom:0;width:220px;background:#2F4050;transition: all 0.4s;z-index: 2001;}
 .menu-wrap.menu-off {left:-220px;}
 .menu-wrap .branding a {display:flex;align-items:center;padding-left:20px;color:#fff;font-weight:400;font-size:14px;
     text-align:center;height:50px;background: #005596;}
