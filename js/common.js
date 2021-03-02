@@ -50,6 +50,9 @@ $(function(){
         var modalID = $(this).attr('name');
         $('body').css('overflow', 'hidden');
         $('#' + modalID).show();
+        if($(window).height() < 768) {
+            $('#' + modalID + ' .modal-body').css('max-height', $(window).height() - $('#' + modalID + ' .modal-header').outerHeight() - $('#' + modalID + ' .modal-footer').outerHeight() - 40);
+        }
     })
     $('.modal-close').click(function(){
         $('body').css('overflow', '');
